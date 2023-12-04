@@ -14,5 +14,5 @@ kind: ConfigMap
 metadata:
   name: db-conf-flask
 data:
- host: {{ .Values.db.host}}
- name: {{ .Values.db.db_name}}
+ host: mysql
+ name: TEST
