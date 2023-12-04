@@ -5,7 +5,7 @@ metadata:
   annotations:
     avp.kubernetes.io/path: "internal/database/flaskapp/config"
 type: Opaque
-stringData:
+data:
  username: <username>
  password: <password>
 ---
