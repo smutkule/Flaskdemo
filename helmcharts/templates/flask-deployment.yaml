@@ -5,7 +5,7 @@ metadata:
   labels:
     app: flask-deploy
 spec:
-  replicas: {{ .Values.app.flaskreplicaCount}}
+  replicas: 1
   selector:
     matchLabels:
       app: flask-web
