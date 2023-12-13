@@ -3,7 +3,7 @@ kind: Secret
 metadata:
   name: db-root-credentials-flask
   annotations:
-    avp.kubernetes.io/path: "internal/database/flaskapp/config"
+    avp.kubernetes.io/path: "internal/database/flaskapp/confi"
 type: Opaque
 stringData:
  username: PHVzZXJuYW1lPg==
