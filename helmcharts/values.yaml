@@ -5,10 +5,10 @@ app:
 #Database values.
 db:
   mysqlreplicaCount: 1
-  username: #dGVzdHVzZXI=
-  password: #dGVzdHVzZXJAMTIz
+  #username: #dGVzdHVzZXI=
+  #password: #dGVzdHVzZXJAMTIz
   host: mysql
   db_name: TEST
   #db-root-credentials
-  rootpassword: YWRtaW4xMjM=
+  #rootpassword: YWRtaW4xMjM=
 
