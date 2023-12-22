@@ -1,18 +1,8 @@
-apiVersion: v1
-kind: Secret
-metadata:
-  name: db-root-credentials-flask
-  annotations:
-    avp.kubernetes.io/path: "internal/database/flaskapp/config"
-type: Opaque
-stringData:
- username: PHVzZXJuYW1lPg==
- password: PHBhc3N3b3JkPg==
 ---
 apiVersion: v1
 kind: ConfigMap
 metadata:
   name: db-conf-flask
-stringData:
+data:
  host: mysql
  name: TEST
